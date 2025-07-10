@@ -130,7 +130,7 @@ const BlogDetail = () => {
                 </ul>
 
                 {/* Cover Image */}
-                <div className="py-16 lg:py-18">
+                <div className="py-8 md::py-18">
                   <img
                     src={blog.cover_image}
                     alt={blog.title}
