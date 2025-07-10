@@ -1,0 +1,33 @@
+.swiper-pagination-custom {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 12px;
+  border-radius: 9999px;
+  background-color: rgba(33, 71, 168, 0.3); /* light blue */
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #2147a8; /* active blue */
+  opacity: 1;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* 👇 Responsive size adjustment for mobile */
+@media (max-width: 640px) {
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 8px;
+  }
+}
